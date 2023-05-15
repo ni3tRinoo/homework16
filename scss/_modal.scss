@@ -1,0 +1,21 @@
+.modal {
+  width: 990px;
+  height: 669px;
+
+  border: 1px solid black;
+  background: #ffffff;
+  border-radius: 50px;
+
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  @include flexCenter();
+
+  form{
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
