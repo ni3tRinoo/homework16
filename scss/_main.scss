@@ -76,7 +76,6 @@ body {
             text-align: center;
             width: 100%;
 
-
             p {
                @include textStyle(200, 24px, 29px);
                padding-bottom: 13px;
@@ -106,3 +105,12 @@ body {
       }
    }
 }
+
+h5{
+   color: black;
+}
+
+.card-menu{
+   display: flex;
+}
+
