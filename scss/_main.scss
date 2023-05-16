@@ -47,6 +47,7 @@ body {
       padding: 16px 34px 16px 34px;
       border-radius: 17px;
       border: none;
+      margin-top: 49px;
    }
 
    & .btn1 {
@@ -61,6 +62,8 @@ body {
       justify-content: space-between;
       width: 80%;
       height: 225px;
+      margin-top: 125px;
+      
 
       .card {
          background-color: #272727;
@@ -106,11 +109,14 @@ body {
    }
 }
 
-h5{
+h5 {
    color: black;
 }
 
-.card-menu{
-   display: flex;
+.cart {
+   border: 1px solid black;
+   width: 328px;
+   height: 229px;
+   margin-top: 57px;
+   margin-left: 57px;
 }
-
